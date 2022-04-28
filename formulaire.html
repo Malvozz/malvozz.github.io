@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Formulaire d'appréciation</title> 
+		<meta name="Author" content="AUBOURG" />
+		<meta name="Keywords" content="formulaire d'appréciation WESTWORLD" />
+		<meta name="Description" content="Formulaire d'appréciation pour savoir si le site est cool" />
+		<link rel="stylesheet" type="text/css" href="../StyleCSS/form.css" media="screen" />
+		
+	</head>
+	<header>
+		<h1>Formulaire d'appréciation</h1><hr />
+	</header>
+	
+<form name="formulaire" action="mailto:felixaubourg@gmail.com?subject=test" method="post" enctype="text/plain">
+	<fieldset>
+		<legend>Informations Personnelles</legend>
+		<p>
+			<label for="nom">Nom:</label><input type="text" name="nom" id="nom" value="defaut" maxlength="42"/>
+		</p>
+		<p>
+			<label for="mail">Adresse E-mail:</label><input type="text" name="mail" id="mail" value="mail"/>
+		</p>
+		<p>
+			Genre: <input type="radio" name="genre" value="femme" id="femme"/><label for="femme">femme</label>
+			<input type="radio" name="genre" value="homme" id="homme"/><label for="homme">homme</label>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Appréciations sur le site Web</legend>
+		<p>
+			Appréciation globale du site:
+		</p>
+		<p>
+			<input type="radio" name="appréciation" value="Très Bonne" id="TB"/><label for="TB">Très bonne</label>
+			<input type="radio" name="appréciation" value="Bonne" id="B"/><label for="B">Bonne</label>
+			<input type="radio" name="appréciation" value="Mauvaise" id="C"/><label for="C">Mauvaise</label>
+			<input type="radio" name="appréciation" value="Très mauvaise" id="TC"/><label for="TC">Très mauvaise</label>
+		</p>
+		<p>
+			<label for="chx">Qu'avez-vous le plus apprécié?</label>
+		</p>
+		<p>
+			<select multiple="multiple" size="4" name="choix" id="chx">
+				<option value="le contenu informatif">Le contenu informatif</option>
+				<option value="le thème graphique">Le thème graphique du site</option>
+				<option value="la navigation interne">La navigation interne</option>
+				<option value="La beauté des images">La beauté des images</option>
+			</select>
+		</p>
+		<p> 
+			<label for="nn">Si "non", justify</label><br/>
+			<textarea name="justification" cols="54" rows="5" id="nn"></textarea>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>Autres informations</legend>
+		<p>
+			<label for="choix">Comment avez vous connu notre site?</label>
+		</p>
+		<p>
+			<select multiple="multiple" size="4" name="choix" id="choix">
+				<option value="Par une connaissance">Par une connaissance</option>
+				<option value="Par hasard en naviguant sur le web">Par hasard en naviguant sur le web</option>
+				<option value="Par de la publicité">Par de la publicité</option>
+				<option value="En recherchant des informations précises au sujet de WestWorld">En recherchant des informations précises au sujet de WestWorld</option>
+			</select>
+		</p>
+		<p> 
+			<label for="n0n">Aidez nous à améliorer notre site en nous donnant des conseils</label><br/>
+			<textarea name="justification" cols="54" rows="5" id="n0n"></textarea>
+		</p>
+		
+	</fieldset>	
+	<p>
+	Merci pour votre appréciation! 
+	</p>
+	<p>
+	<input type="submit" value="Envoyer"/>
+	<input type="reset" value="Effacer"/>
+	</p>
+	<p>
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="CSS Valide !" />
+			</a>
+			<a href="https://validator.w3.org/nu/#textarea">
+        <img style="border:0;width:88px;height:31px"
+            src="../Images/W3C_HTML5.png"
+            alt="HTML5 Valide !" />
+			</a>
+		</p>
+</form> 
