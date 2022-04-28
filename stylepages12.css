@@ -1,0 +1,128 @@
+﻿/* fEUILE DE STYLE POUR INDEX */
+
+body   
+{
+  background:url(../Images/backgrounddesert1.jpg) no-repeat;
+  background-color :#FF760C;
+  color: white ;
+  margin-right: 5%;           
+  margin-left: 5%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+img
+{
+ width: 45px;
+ height: 45px;
+}
+h3
+{
+	margin-left: 37px;	
+}
+h5
+{
+	 margin-left: 240px;
+	 margin-right: auto;
+     font-family: Arial,sans-serif;
+     font-size: 1.6em;
+     width: 200px;
+     height: 43px;
+     padding-top: 7px; 
+     text-align: center;
+     color: #201858;
+     background: #444;
+	 background: linear-gradient( white, black);
+	 border-radius: 16px;
+}
+h5.active 
+{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset,0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+h5.hover
+{
+     color: #222;
+     background: #555;
+     background: linear-gradient( #777, #333);
+}
+
+a
+{
+	color: white;
+}
+header
+{
+  margin-bottom: 2%;
+}
+h1    
+{
+  
+}
+h4     
+{
+  margin-left:500px;
+  margin-right:600px;
+  text-decoration: underline;
+  text-indent: 20px;
+  font-size: 30px;
+ 
+}
+p em   
+{
+  color: #00008B;
+
+}
+p      
+{
+  padding:5px;
+  box-shadow:2px 2px 2px black,-1px -1px 2px black;
+  background-color:#3B3A3A;
+  color:#FFFFFF;
+  margin-left: 160px;
+  margin-right: 160px;
+  font-size: 20px;	
+  opacity:0.5;
+}
+section.Video
+{
+ margin-left:260px;
+}
+li
+{
+  padding:2px;
+  box-shadow:2px 2px 2px black,-1px -1px 2px black;
+  background-color:#3B3A3A;
+  opacity: 0.85;
+  margin-left:86px;
+  margin-right:86px;
+} 
+section.liste
+{ 
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; 
+}
+section.theorie
+{
+ margin-left: 14px;
+ margin-right: auto;
+ color:#FFFA33;
+ font-family: Impact, fantasy;
+ font-variant: small-caps;
+ font-size: 30px; 
+ }
+aside
+{
+  margin-top: 2%;
+ 
+}
+article
+{
+  margin-top: 2%;
+  clear: both;
+}
+
+
+
